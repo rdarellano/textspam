@@ -1,0 +1,131 @@
+body {
+	background-color:#DFE1EB;
+	color:#382e04;
+}
+aside{
+    float: left;
+}
+section{
+    float: right;
+    padding: 10px;
+}
+.article{
+    margin: 10px;
+    float: right;
+}
+.column {
+    float: right;
+    text-align:center;
+    width: 16.5%;
+}
+.row:after {
+    content: "";
+    display: table;
+}
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+a { padding: 5px; }
+.myFooter {
+  background-color: #434c5b;
+  box-shadow: 0 2px 0 black;
+  color: white;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.myFooter:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  color: black;
+}
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+.myAside {
+  background-color: #434c5b;
+  box-shadow: 0 2px 0 black;
+  color: white;
+  padding: 3px;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  width: 130px;
+}
+.myAside:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  color: black;
+}
+h1 {
+color: #382e04;
+font-family: arial, sans-serif;
+font-size: 22px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 16px;
+}
+h3 {
+color: #382e04;
+font-family: arial, sans-serif;
+font-size: 28px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 16px;
+}
+
+.submitTop {
+    font-size: 18px;
+}
+img.displayed {
+    position: relative;
+    top: 35px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #434c5b;
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change background on mouse-over */
+.nav a:hover {
+    background: #ddd;
+    color: black;
+}
+fieldset2 {
+    display: block;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+    margin-top: 90px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+fieldset {
+    position:fixed;
+    z-index:999;
+    width:290px;
+    height:120px;
+    top:30%;
+    margin-left:-160px;
+    margin-top:-80px;
+    left:50%;
+}
+
